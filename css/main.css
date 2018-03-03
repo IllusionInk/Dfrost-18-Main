@@ -1,0 +1,318 @@
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 12px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+body .site_base{
+    width: 1366px;
+    height: 8448px;
+    background-image: linear-gradient(to right, #353761, #090d1a);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 25px;
+}
+
+
+.dfrost-logo {
+  width: 450px;
+  height: 450px;
+  display: block;
+  background: url('../img/logo/logo2.svg') center center no-repeat;
+  background-size: contain;
+  margin: -50px auto;
+  position: center;
+}
+
+.img-rect{
+    width : 270 px;
+    height: 233 px;
+}
+
+.Rectangle-4-Copy-12 {
+  width: 266px;
+  height: 307px;
+  transform: rotate(71deg);
+  opacity: 0.7;
+  background-image: linear-gradient(286deg, #fbc679, #ca5589 50%, #c12b8a);
+}
+
+
+.main-heading{
+    font-family: 'Open Sans', sans-serif;
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  font-size: 68px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+    
+}
+.main-heading-left{
+    font-family: 'Open Sans', sans-serif;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  font-size: 68px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+    
+}
+.main-heading-small{
+    font-family: 'Open Sans', sans-serif;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  font-size: 38px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+    
+}
+
+
+
+#about .content{
+     width: 632px;
+  height: 288px;
+  font-family: Uni-Sans;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#schedule .days{
+     width: 155px;
+  height: 72px;
+  font-family: Uni-Sans;
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#schedule .table-heading{
+    font-family: 'Open Sans', sans-serif;
+      width: 95px;
+  height: 42px;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#schedule .table-side-heading{
+    width: 232px;
+  height: 42px;
+  opacity: 0.8;
+  font-family: Uni-Sans;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #939191;
+}
+
+#schedule .table-content{
+     width: 225px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #cfd8dc;
+}
+
+#schedule .table-content .light{
+    width: 273px;
+  height: 42px;
+  opacity: 0.7;
+  font-family: Uni-Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 2.33;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #78909c;
+}
+
+#dtalks .title{
+    width: 270px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+#dtalks .sub-title{
+    width: 270px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #a8a8a8;
+}
+
+#dlabs .title{
+    width: 270px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#dlabs .sub-title{
+    width: 270px;
+  height: 42px;
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #968888;
+}
+
+#dlabs .table-content{
+      width: 270px;
+  height: 119px;
+  opacity: 0.8;
+  font-family: Uni-Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#dspace .title{
+    width: 270px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#dspace .sub-title{
+    width: 270px;
+  height: 42px;
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #968888;
+}
+
+#dspace .table-content{
+      width: 270px;
+  height: 119px;
+  opacity: 0.8;
+  font-family: Uni-Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+}
