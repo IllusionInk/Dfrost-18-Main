@@ -5,7 +5,7 @@ html {
 }
 
 body {
- font-family: 'Open Sans', sans-serif;
+ font-family: Uni-Sans;
  font-size: 12px;
   position: relative;
   width: 100%;
@@ -18,6 +18,35 @@ body .site_base{
     height: 8448px;
     background-image: linear-gradient(to right, #353761, #090d1a);
 }
+
+@font-face
+{
+font-family: Uni-Sans;
+src: url('../Uni-Sans-Regular.otf'),
+url('../Uni-Sans-Regular.otf');
+}
+
+@font-face
+{
+font-family: Uni-Sans-Bold;
+src: url('../Uni-Sans-Bold.otf'),
+url('../Uni-Sans-Bold.otf');
+}
+
+@font-face
+{
+font-family: Uni-Sans-Heavy;
+src: url('../Uni-Sans-Heavy.otf'),
+url('../Uni-Sans-heavy.otf');
+}
+
+@font-face
+{
+font-family: Uni-Sans-Bold;
+src: url('../Uni-Sans-Semi-Bold.otf'),
+url('../Uni-Sans-Semi-Bold.otf');
+}
+
 
 h1,
 h2,
@@ -62,8 +91,74 @@ p {
 }
 
 
+#mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, #F15B2D, #EB325B, #E61088);
+  background-color: black;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 22px;
+  padding: 11px;
+  color: white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+}
+
+#mainNav a {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(to right, #F15B2D, #EB325B, #E61088);
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+
+
 .main-heading{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Uni-Sans;
   position: relative;
   text-align: right;
   width: 100%;
@@ -80,7 +175,7 @@ p {
     
 }
 .main-heading-left{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Uni-Sans;
   position: relative;
   text-align: left;
   width: 100%;
@@ -97,7 +192,7 @@ p {
     
 }
 .main-heading-small{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Uni-Sans;
   position: relative;
   text-align: center;
   width: 100%;
@@ -145,7 +240,7 @@ p {
 }
 
 #schedule .table-heading{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Uni-Sans;
       width: 95px;
   height: 42px;
   font-size: 32px;
@@ -248,7 +343,7 @@ p {
 #dlabs .sub-title{
     width: 270px;
   height: 42px;
-  font-family:'Open Sans', sans-serif;
+  font-family:Uni-Sans;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -291,7 +386,7 @@ p {
 #dspace .sub-title{
     width: 270px;
   height: 42px;
-  font-family:'Open Sans', sans-serif;
+  font-family:Uni-Sans;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
