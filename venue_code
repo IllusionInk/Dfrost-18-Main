@@ -1,4 +1,4 @@
-.venue_title {
+.venue_heading {
   width: 130px;
   height: 72px;
   font-family: Uni-Sans;
