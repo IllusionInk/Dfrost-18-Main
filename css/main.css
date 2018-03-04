@@ -22,29 +22,29 @@ body .site_base{
 @font-face
 {
 font-family: Uni-Sans;
-src: url('../Uni-Sans-Regular.otf'),
-url('../Uni-Sans-Regular.otf');
+src: url('../font/Uni-Sans-Regular.otf'),
+url('../font/Uni-Sans-Regular.otf');
 }
 
 @font-face
 {
 font-family: Uni-Sans-Bold;
-src: url('../Uni-Sans-Bold.otf'),
-url('../Uni-Sans-Bold.otf');
+src: url('../font/Uni-Sans-Bold.otf'),
+url('../font/Uni-Sans-Bold.otf');
 }
 
 @font-face
 {
 font-family: Uni-Sans-Heavy;
-src: url('../Uni-Sans-Heavy.otf'),
-url('../Uni-Sans-heavy.otf');
+src: url('../font/Uni-Sans-Heavy.otf'),
+url('../font/Uni-Sans-heavy.otf');
 }
 
 @font-face
 {
 font-family: Uni-Sans-Bold;
-src: url('../Uni-Sans-Semi-Bold.otf'),
-url('../Uni-Sans-Semi-Bold.otf');
+src: url('../font/Uni-Sans-Semi-Bold.otf'),
+url('../font/Uni-Sans-Semi-Bold.otf');
 }
 
 
@@ -89,72 +89,6 @@ p {
   opacity: 0.7;
   background-image: linear-gradient(286deg, #fbc679, #ca5589 50%, #c12b8a);
 }
-
-
-#mainNav {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background: linear-gradient(to right, #F15B2D, #EB325B, #E61088);
-  background-color: black;
-}
-
-#mainNav .navbar-toggler {
-  font-size: 22px;
-  padding: 11px;
-  color: white;
-}
-
-#mainNav .navbar-brand {
-  font-weight: 700;
-}
-
-#mainNav a {
-  color: white;
-}
-
-#mainNav .navbar-nav .nav-item {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-
-#mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
-  outline: none;
-  background-color: transparent;
-}
-
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-  outline: none;
-  background-color: transparent;
-}
-
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    letter-spacing: 1px;
-    border-bottom: none;
-    background: transparent;
-  }
-  #mainNav.navbar-shrink {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: linear-gradient(to right, #F15B2D, #EB325B, #E61088);
-  }
-  #mainNav .nav-link.active {
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-  #mainNav .nav-link.active:hover {
-    color: white;
-  }
 
 
 .main-heading{
@@ -407,6 +341,63 @@ p {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.22;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#contact .college {
+  width: 426px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#contact .address {
+  width: 300px;
+  height: 84px;
+  opacity: 0.8;
+  font-family: Uni-Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#contact .ph {
+  width: 155px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#contact .website {
+  width: 113px;
+  height: 42px;
+  font-family: Uni-Sans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1;
   letter-spacing: 0.1px;
   text-align: left;
   color: #ffffff;
