@@ -170,6 +170,20 @@ p {
 }
 
 
+.nav-list-items{
+    width: 43px;
+  height: 20px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #ffffff;
+}
+
 .button_text {
   width: 185px;
   height: 28px;
@@ -412,7 +426,7 @@ p {
 }
 
 #contact .college {
-  width: 426px;
+ width: 426px;
   height: 42px;
   font-family: Uni-Sans;
   font-size: 24px;
@@ -426,7 +440,7 @@ p {
 }
 
 #contact .address {
-  width: 300px;
+ width: 300px;
   height: 84px;
   opacity: 0.8;
   font-family: Uni-Sans;
