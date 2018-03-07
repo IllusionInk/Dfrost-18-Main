@@ -642,6 +642,11 @@ text-align: left;
 color: #ffffff;
 }
 
+ {
+  text-align: center;
+  list-style: inside;
+}
+
 .main_footer{display: block;float: center;width: 100%;padding: 30px 100px;height: auto;background: #141414;color: #8d8d8d;border: none;}
 .main_footer .social_wrap, .main_footer .footer_content{display: block;float: center;}
 .main_footer .footer_content{width: 85%;height: auto; text-align:center;}
@@ -650,3 +655,4 @@ color: #ffffff;
 .main_footer .social_wrap ul li a:hover i{color:#e72078;}
 .main_footer .social_wrap ul{display: block;}
 .main_footer .social_wrap ul li{display: inline-block;width: 18%;}
+.main_footer .social_wrap .footer_social_list{text-align: center; list-style: inside;}
