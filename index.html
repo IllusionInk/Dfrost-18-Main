@@ -6,32 +6,61 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+	
 
 </head>
-<body style="height:1500px" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-inverse navbar-expand-lg navbar-light fixed-top navbar-fixed-top ">
+<body >
+<nav class="navbar navbar-inverse navbar-expand-lg navbar-light fixed-top navbar-fixed-top " id="mainNav">
   <div class="container-fluid">
    <div class="navbar-header">
-      <a class="navbar-brand" href="#">DFrost</a>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand js-scroll-trigger" >DFrost</a>
     </div>
-    <ul  class="nav navbar-nav navbar-right navbar-nav ml-auto">
-      <li class="active"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-      <li><a href="#schedule">Schedule</a></li>
-      <li><a href="#dtalks">Speakers</a></li>
-	  <li><a href="#dlabs">Workshops</a></li>
-      <li><a href="#dspace">Extras</a></li>
-      <li><a href="#partners">Partners</a></li>
-      <li><a href="#contact">Contact</a></li>
+	 <div class="collapse navbar-collapse" id="myNavbar">
+	 <ul  class="nav navbar-nav navbar-right navbar-nav ml-auto " >
+       <li class="nav-list-items" class="active"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#schedule">Schedule</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#dtalks">Speakers</a></li>
+	  <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#dlabs">Workshops</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#dspace">Extras</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#partners">Partners</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#contact">Contact</a></li>
+          </ul>
+       
+     
+    </div>
+  </div>
+	
+ 
+</nav>
+<!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top " id="mainNav">
+  <div class="container-fluid">
+   <div class="navbar-header">
+      <a class="navbar-brand js-scroll-trigger" >DFrost</a>
+    </div>
+	 <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul  class="nav navbar-nav navbar-right navbar-nav ml-auto " >
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#schedule">Schedule</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#dtalks">Speakers</a></li>
+	  <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#dlabs">Workshops</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#dspace">Extras</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#partners">Partners</a></li>
+      <li class="nav-list-items"><a class="nav-link js-scroll-trigger " href="#contact">Contact</a></li>
     </ul>
   </div>
-</nav>
-
+  </div>
+</nav> -->
 
 <header class="masthead">
       <div class="intro-text">
@@ -70,7 +99,7 @@
       </div>
     </section>
 
-<section id="schedule" class="content-section text-center">
+<s<section id="schedule" class="content-section text-center">
       <div class="container">
         <div class="row" align="right">
           <p class="main-heading" align="right" style="margin-top:200px;">SCHEDULE</p>
@@ -81,59 +110,57 @@
 
           <div class="col-lg-12 col-md-12 col-sm-6 text-center">
                             <!--DAY 1-->
-                <p class="days">Day 1 <br>17 March </p><br>
-              <p class="table-heading" align ="left">dLabs<span class="table-side-heading">|Workshop</span></p>
-              <table  cellspacing="0" width="90%">
-                <tr>
-                     <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                     <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                     <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                     <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                      <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                  </tr>
-                  </table><br><br>
+     <p class="days">Day 1 <br>17 March </p><br>
+              <div class="table-heading">dLabs<span class="table-side-heading">|Workshop</span></div>
+                 <div class="row" style="position: absolute" >
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+           
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+              
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+        
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                  </div>
+           
 
-                  <p class="table-heading" align ="left">dTalks<span class="table-side-heading">|Workshop</span></p>
-                  <table cellspacing="0" width="90%">
-                    <tr>
-                      <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                      <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                      <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                      <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                       <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                       <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                      </tr>
-                  </table><br><br>
-
-                   <p class="table-heading" align ="left">dStage<span class="table-side-heading">|Workshop</span></p>
-                   <table cellspacing="0" width="90%">
-                     <tr>
-                       <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                       <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                       <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                       <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                       <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                        <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                        <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                       </tr>
-                    </table>
-              <br/><br/><br/><br><br><br>
-
+                  <div class="table-heading" >dTalks<span class="table-side-heading">|Workshop</span></div>
+                  
+                <div class="row" style="position: relative" >
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                 
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                    
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                 
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                  </div>
+	
+        
+				 
+                   <div class="table-heading" >dStage<span class="table-side-heading">|Workshop</span></div >
+                   
+                <div class="row" style="position: relative" >
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                   
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                 
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                  
+                     <div class="table-content col-sm-3" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</div>
+                  </div>
+               
               <!--DAY 2-->
-                <p class="days">Day 2 <br>18 March </p>
+                <!--<p class="days">Day 2 <br>18 March </p>
                   <br>
                   <p class="table-heading" align ="left">dLabs<span class="table-side-heading">|Workshop</span></p>
-                  <table  cellspacing="0" width="90%">
+                  <table  class="table" cellspacing="0" width="90%">
                     <tr>
                          <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                         <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                         <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
                          <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                         <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                         <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
                          <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
-                          <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+                          <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
                           <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
                       </tr>
                       </table><br><br>
@@ -162,7 +189,7 @@
                             <td> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
                             <td class="table-content" align ="left">10:30 -11:00am<br>Make with bamboo<br>NID center for bamboo initiatives</td>
                            </tr>
-                        </table><br><br><br><br>
+                        </table><br><br><br><br>-->
             </div>
         </div>
       </div>
@@ -363,7 +390,7 @@
             <p class="main-heading-small">VENUE <br><br>
                 <span class="college">
                 National Institute of Design, RD Campus</span><br>
-                <span>12, HMT Link Road (off Tumkur Road),
+                <span class="address">12, HMT Link Road (off Tumkur Road),
                 Opposite Platinum City
                 Peenya, Bengaluru - 560022</span><br>
                 <span class="ph">9718867845</span><br>
@@ -376,138 +403,94 @@
         </div>
       </div>
     </section>
-
-<!--<script>
-    const colors = ["#3CC157", "#2AA7FF", "#FF7F50", "#FCBC0F", "#F85F36"];
-
-const numBalls = 50;
-const balls = [];
-
-for (let i = 0; i < numBalls; i++) {
-  let ball = document.createElement("div");
-  ball.classList.add("ball");
-  ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-  ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-  ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
-  ball.style.transform = `scale(${Math.random()})`;
-  ball.style.width = `${Math.random()}em`;
-  ball.style.height = ball.style.width;
-
-  balls.push(ball);
-  document.body.append(ball);
-}
-
-// Keyframes
-balls.forEach((el, i, ra) => {
-  let to = {
-    x: Math.random() * (i % 2 === 0 ? -11 : 11),
-    y: Math.random() * 12
-  };
-
-  let anim = el.animate(
-    [
-      { transform: "translate(0, 0)" },
-      { transform: `translate(${to.x}rem, ${to.y}rem)` }
-    ],
-    {
-      duration: (Math.random() + 1) * 2000, // random duration
-      direction: "alternate",
-      fill: "both",
-      iterations: Infinity,
-      easing: "ease-in-out"
-    }
-  );
-});
-</script>-->
-
-<script>
+	
+	<footer id="main_footer" class="main_footer">
+    	<div class="footer_content">
+		    <p>&copy; 2017 | National Institute of Design, Bangalore</p> 
+		</div>
+		<div class="social_wrap">
+   			<ul class="footer_social_list">
+	            <li>
+	            	<a href="https://www.facebook.com/dfrostNID/" target="_blank">
+	             	<i class="fa fa-facebook"></i>
+	            	</a>
+	            </li>
+	            <li>
+	            	<a href="https://twitter.com/dFrostNID" target="_blank">
+	              	<i class="fa fa-twitter"></i>
+	            	</a>
+	            </li>
+	            <li>
+	            	<a href="https://www.instagram.com/dfrostnid/" target="_blank">
+	              	<i class="fa fa-instagram"></i>
+	            	</a>
+	            </li>
+	            <li>
+	            	<a href="https://www.youtube.com/user/DfrostNID" target="_blank">
+	              	<i class="fa fa-youtube"></i>
+	            	</a>
+	            </li>
+	            <li>
+	            	<a href="mailto:dfrost@nid.edu" target="_blank">
+	              	<i class="fa fa-envelope"></i>
+	            	</a>
+	            </li>
+	         </ul>
+	    </div>
+	</footer>
+	<script>
     
-    const colors = ["#3CC157", "#2AA7FF", "#FF7F50", "#FCBC0F", "#F85F36"];
+		const colors = ["#3CC157", "#2AA7FF", "#FF7F50", "#FCBC0F", "#F85F36"];
 
-const numBalls = 100;
-const balls = [];
+	const numBalls = 100;
+	const balls = [];
 
-for (let i = 0; i < numBalls; i++) {
-  let ball = document.createElement("div");
-  ball.classList.add("ball");
-  ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-  ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-  ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
-  ball.style.transform = `scale(${Math.random()})`;
-  ball.style.width = `${Math.random()}em`;
-  ball.style.height = `${Math.random()/3}em`;
-  /*ball.style.height = ball.style.width;*/
+	for (let i = 0; i < numBalls; i++) {
+	  let ball = document.createElement("div");
+	  ball.classList.add("ball");
+	  ball.style.background = colors[Math.floor(Math.random() * colors.length)];
+	  ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
+	  ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
+	  ball.style.transform = `scale(${Math.random()})`;
+	  ball.style.width = `${Math.random()}em`;
+	  ball.style.height = `${Math.random()/3}em`;
+	  /*ball.style.height = ball.style.width;*/
 
-  balls.push(ball);
-  document.body.append(ball);
-}
+	  balls.push(ball);
+	  document.body.append(ball);
+	}
 
-// Keyframes
-balls.forEach((el, i, ra) => {
-  let to = {
-    x: Math.random() * (i % 2 === 0 ? -1 : 1),
-    y: Math.random() * 0
-  };
+	// Keyframes
+		balls.forEach((el, i, ra) => {
+		  let to = {
+			x: Math.random() * (i % 2 === 0 ? -1 : 1),
+			y: Math.random() * 0
+		  };
 
-  let anim = el.animate(
-    [
-      { transform: "translate(0, 0)" },
-      { transform: `translate(${to.x}rem, ${to.y}rem)` }
-    ],
-    {
-      duration: (Math.random() + 1) * 50, // random duration
-      direction: "alternate",
-      fill: "both",
-      iterations: Infinity,
-      easing: "ease-in-out"
-    }
-  );
-});
-</script>
-    
-<!--<script>
-    const colors = ["#3CC157", "#2AA7FF", "#FF7F50", "#FCBC0F", "#F85F36"];
+		  let anim = el.animate(
+			[
+			  { transform: "translate(0, 0)" },
+			  { transform: `translate(${to.x}rem, ${to.y}rem)` }
+			],
+			{
+			  duration: (Math.random() + 1) * 50, // random duration
+			  direction: "alternate",
+			  fill: "both",
+			  iterations: Infinity,
+			  easing: "ease-in-out"
+			}
+		  );
+		});
+	</script>
 
-const numBalls = 100;
-const balls = [];
+	<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-for (let i = 0; i < numBalls; i++) {
-  let ball = document.createElement("div");
-  ball.classList.add("ball");
-  ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-  ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-  ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
-  ball.style.transform = `scale(${Math.random()})`;
-  ball.style.width = `${Math.random()}em`;
-  ball.style.height = `${Math.random()/3}em`;
-  /*ball.style.height = ball.style.width;*/
-
-  balls.push(ball);
-  document.body.append(ball);
-}
-
-// Keyframes
-balls.forEach((el, i, ra) => {
-  let to = {
-    x: Math.random() * (i % 2 === 0 ? -1 : 1),
-    y: Math.random() * 0
-  };
-
-  let anim = el.animate(
-    [
-      { transform: "translate(0, 0)" },
-      { transform: `translate(${to.x}rem, ${to.y}rem)` }
-    ],
-    {
-      duration: (Math.random() + 1) * 50, // random duration
-      direction: "alternate",
-      fill: "both",
-      iterations: Infinity,
-      easing: "ease-in-out"
-    }
-  );
-});
-</script>-->
-
+		<!-- Plugin JavaScript -->
+		<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

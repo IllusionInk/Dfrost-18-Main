@@ -11,10 +11,24 @@ body {
   width: 100%;
   height: 100%;
   color: white;
-  background-image: linear-gradient(to right, #353761, #090d1a);
+  background-image: linear-gradient(to left, #353761, #090d1a);
     
+
+
     
-}
+  
+        padding-top:60px;
+    }
+    /* fix padding under menu after resize */
+    @media screen and (max-width: 767px) {
+        body { padding-top: 60px; }
+    }
+    @media screen and (min-width:768px) and (max-width: 991px) {
+        body { padding-top: 110px; }
+    }
+    @media screen and (min-width: 992px) {
+        body { padding-top: 60px; }
+    }
 /*body .site_base{
     width: 1366px;
     height: 8448px;
@@ -90,8 +104,7 @@ p {
   height: 266px;
   transform: rotate(71deg);
   opacity: 0.7;
-  background-image: linear-gradient(286deg, #fbc679, #ca5589 50%, #c12b8a);
-    
+  background-image: linear-gradient(286deg, #fbc679, #ca5589 50%, #c12b8a);    
   overflow: hidden;
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
   animation: float 6s ease-in-out infinite;
@@ -121,8 +134,8 @@ p {
     font-family: Uni-Sans;
   position: relative;
   text-align: right;
-  width: 100%;
-  height: 100%;
+  width: 256px;
+  height: 72px;
   color: white;
   background-color: transparent;
   font-size: 68px;
@@ -153,28 +166,27 @@ p {
 }
 .main-heading-small{
     font-family: Uni-Sans;
-  position: relative;
-  text-align: center;
+  position: relative; 
+  background-color: transparent;  
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: transparent;
+  font-family: Uni-Sans;
   font-size: 38px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.06;
-  letter-spacing: 0.4px;
+  line-height: 1.89;
+  letter-spacing: 0.2px;
+  text-align: center;
   color: #ffffff;
     
 }
 
 
 .nav-list-items{
-    width: 43px;
-  height: 20px;
-  font-family: SourceSansPro;
-  font-size: 18px;
+  
+  font: SourceSansPro-Regular;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -184,6 +196,72 @@ p {
   color: #ffffff;
 }
 
+#mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, #F15B2D, #EB325B, #E61088);
+  background-color: black;
+ 
+}
+
+#mainNav .navbar-toggler {
+  font-size: 22px;
+  padding: 11px;
+  color: white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+}
+
+#mainNav a {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(to right, #F15B2D, #EB325B, #E61088);
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+}
 .button_text {
   width: 185px;
   height: 28px;
@@ -283,7 +361,7 @@ p {
 
 #schedule .table-content{
      width: 225px;
-  height: 42px;
+  height: auto;
   font-family: Uni-Sans;
   font-size: 20px;
   font-weight: normal;
@@ -426,7 +504,7 @@ p {
 }
 
 #contact .college {
- width: 426px;
+  width: 426px;
   height: 42px;
   font-family: Uni-Sans;
   font-size: 24px;
@@ -483,7 +561,7 @@ p {
 }
 
 
-@keyframes float {
+ @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
@@ -496,7 +574,7 @@ p {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
-}
+} 
 
 
 .ball {
@@ -563,4 +641,12 @@ letter-spacing: 0.1px;
 text-align: left;
 color: #ffffff;
 }
-}
+
+.main_footer{display: block;float: center;width: 100%;padding: 30px 100px;height: auto;background: #141414;color: #8d8d8d;border: none;}
+.main_footer .social_wrap, .main_footer .footer_content{display: block;float: center;}
+.main_footer .footer_content{width: 85%;height: auto; text-align:center;}
+.main_footer .social_wrap{width: 15%;height: auto; text-align:center;}
+.main_footer .social_wrap ul li a i{font-size:1.4em;color:#8d8d8d;}
+.main_footer .social_wrap ul li a:hover i{color:#e72078;}
+.main_footer .social_wrap ul{display: block;}
+.main_footer .social_wrap ul li{display: inline-block;width: 18%;}
