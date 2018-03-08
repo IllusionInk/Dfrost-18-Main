@@ -102,11 +102,22 @@ p {
     margin-top : 5px;
 }
 
+
+.map {
+      position: relative;
+      height: 400px;
+      width: 100%;
+    }
+
+
 @media only screen and (max-width: 992px) {
     .nid-logo-img {
     margin-top: 11px;
     margin-left: 6px;    
     width: 40px;    
+  }
+  .map{
+    height: 200px;
   }
 }
 
@@ -717,6 +728,7 @@ color: #ffffff;
   text-align: center;
   list-style: inside;
 }
+
 
  .main_footer {
     padding: 40px 30px;
