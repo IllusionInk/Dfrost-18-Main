@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1366px" height="8677px" viewBox="0 0 1366 8677" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>DFrost Countdown Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-36.028438%" y1="82.3007752%" x2="120.790407%" y2="26.1014641%" id="linearGradient-1">
+            <stop stop-color="#B979E6" offset="0%"></stop>
+            <stop stop-color="#7A0951" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-38.0512591%" y1="83.0256954%" x2="120.790407%" y2="26.1014641%" id="linearGradient-2">
+            <stop stop-color="#CFD236" offset="0%"></stop>
+            <stop stop-color="#B10B74" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-9.0902766%" y1="75.8488603%" x2="120.790407%" y2="26.1014641%" id="linearGradient-3">
+            <stop stop-color="#D373AF" offset="0%"></stop>
+            <stop stop-color="#BC4F89" offset="43.2103927%"></stop>
+            <stop stop-color="#110B85" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-9.0902766%" y1="75.8488603%" x2="120.790407%" y2="26.1014641%" id="linearGradient-4">
+            <stop stop-color="#FBC679" offset="0%"></stop>
+            <stop stop-color="#CA5589" offset="53.9884978%"></stop>
+            <stop stop-color="#642BC1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.4129452%" y1="-5.12964048%" x2="68.053506%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FBC679" offset="0%"></stop>
+            <stop stop-color="#CA5589" offset="49.9300036%"></stop>
+            <stop stop-color="#C12B8A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="130.521017%" y1="0%" x2="-87.295281%" y2="107.53398%" id="linearGradient-6">
+            <stop stop-color="#FB79E5" offset="0%"></stop>
+            <stop stop-color="#CA5589" offset="57.7988545%"></stop>
+            <stop stop-color="#3D0328" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.2695072%" y1="-27.6734623%" x2="78.939683%" y2="129.511125%" id="linearGradient-7">
+            <stop stop-color="#EC479A" offset="0%"></stop>
+            <stop stop-color="#7924B5" offset="69.1245928%"></stop>
+            <stop stop-color="#664DA5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.2695072%" y1="-27.6734623%" x2="86.7043766%" y2="155.315195%" id="linearGradient-8">
+            <stop stop-color="#FF9A67" offset="0%"></stop>
+            <stop stop-color="#620D37" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-131.600532%" y1="-74.1606711%" x2="121.948331%" y2="102.879061%" id="linearGradient-9">
+            <stop stop-color="#D18B53" offset="0%"></stop>
+            <stop stop-color="#A5265C" offset="64.8209566%"></stop>
+            <stop stop-color="#351065" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.86685659%" y1="-71.254815%" x2="78.939683%" y2="129.511125%" id="linearGradient-10">
+            <stop stop-color="#D18B53" offset="0%"></stop>
+            <stop stop-color="#A5265C" offset="64.8209566%"></stop>
+            <stop stop-color="#351065" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="DFrost-Countdown-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-186.000000, 192.000000)">
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-1)" transform="translate(1455.141017, 6401.901988) rotate(-9.000000) translate(-1455.141017, -6401.901988) " points="1222.14102 6292.88616 1563.42387 6168.90199 1688.14102 6510.91782 1346.85816 6634.90199"></polygon>
+            <path d="M1124.06224,6301.92072 L1213.03424,6545.91149 L1456.49727,6457.46415 L1367.52527,6213.47337 L1124.06224,6301.92072 Z" id="Rectangle-4-Copy-12" stroke="#FFC6E0" stroke-width="2" transform="translate(1290.279755, 6379.692432) rotate(121.000000) translate(-1290.279755, -6379.692432) "></path>
+            <polygon id="Rectangle-4-Copy-12" fill="#758CF4" opacity="0.562839674" transform="translate(1373.367667, 5954.177164) rotate(240.000000) translate(-1373.367667, -5954.177164) " points="1350.85267 5943.64287 1383.83114 5931.66216 1395.88267 5964.71146 1362.9042 5976.69216"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#E75492" opacity="0.562839674" transform="translate(914.367667, 5313.177164) rotate(271.000000) translate(-914.367667, -5313.177164) " points="892.852668 5303.11075 924.366403 5291.66216 935.882666 5323.24358 904.368931 5334.69216"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#E75492" opacity="0.562839674" transform="translate(1249.367666, 5663.177165) rotate(351.000000) translate(-1249.367666, -5663.177165) " points="1237.85267 5657.78954 1254.71907 5651.66216 1260.88267 5668.56479 1244.01626 5674.69217"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#E75492" opacity="0.562839674" transform="translate(1260.367666, 5666.177165) rotate(351.000000) translate(-1260.367666, -5666.177165) " points="1248.85267 5660.78954 1265.71907 5654.66216 1271.88267 5671.56479 1255.01626 5677.69217"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#CB4079" opacity="0.562839674" transform="translate(286.367667, 5940.177164) rotate(331.000000) translate(-286.367667, -5940.177164) " points="267.852668 5931.51438 294.972203 5921.66216 304.882666 5948.83994 277.763131 5958.69216"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#758CF4" opacity="0.562839674" transform="translate(1109.756061, 6704.756061) rotate(240.000000) translate(-1109.756061, -6704.756061) " points="1087.24106 6694.22176 1120.21953 6682.24106 1132.27106 6715.29036 1099.29259 6727.27106"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#758CF4" opacity="0.562839674" transform="translate(1089.756061, 6704.756061) rotate(240.000000) translate(-1089.756061, -6704.756061) " points="1067.24106 6694.22176 1100.21953 6682.24106 1112.27106 6715.29036 1079.29259 6727.27106"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#E75492" opacity="0.562839674" transform="translate(914.367667, 6283.177164) rotate(271.000000) translate(-914.367667, -6283.177164) " points="892.852668 6273.11075 924.366403 6261.66216 935.882666 6293.24358 904.368931 6304.69216"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="#CB4079" opacity="0.562839674" transform="translate(286.367667, 6570.177164) rotate(331.000000) translate(-286.367667, -6570.177164) " points="267.852668 6561.51438 294.972203 6551.66216 304.882666 6578.83994 277.763131 6588.69216"></polygon>
+            <polyline id="Path-2" stroke="#A2559B" stroke-width="2" transform="translate(774.473198, 5735.746030) rotate(90.000000) translate(-774.473198, -5735.746030) " points="773.593063 5774.62121 753.5443 5774.62121 753.5443 5696.87085 795.402096 5696.87085"></polyline>
+            <path d="M1022.41948,5415.74603 L1064.27728,5415.74603" id="Path-2" stroke="#A2559B" stroke-width="2" transform="translate(1043.348379, 5415.746030) rotate(90.000000) translate(-1043.348379, -5415.746030) "></path>
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-2)" transform="translate(1520.606828, 5448.768698) rotate(61.000000) translate(-1520.606828, -5448.768698) " points="1331.97331 5360.51102 1608.2711 5260.13518 1709.24035 5537.02638 1432.94256 5637.40222"></polygon>
+            <path d="M1252.74758,5318.09507 L1324.59594,5515.12713 L1521.20089,5443.70279 L1449.35253,5246.67073 L1252.74758,5318.09507 Z" id="Rectangle-4-Copy-12" stroke="#FFC6E0" stroke-width="2" transform="translate(1386.974235, 5380.898931) rotate(121.000000) translate(-1386.974235, -5380.898931) "></path>
+            <path d="M1095.28249,4072.53497 L1151.87085,4227.71906 L1306.71751,4171.46503 L1250.12915,4016.28094 L1095.28249,4072.53497 Z" id="Rectangle-4-Copy-12" stroke="#FFA1CC" stroke-width="2" opacity="0.912250906" transform="translate(1201.000000, 4122.000000) rotate(131.000000) translate(-1201.000000, -4122.000000) "></path>
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-3)" opacity="0.562839674" transform="translate(1371.176111, 4178.631280) rotate(71.000000) translate(-1371.176111, -4178.631280) " points="1220.66216 4108.20895 1441.12495 4028.11733 1521.69006 4249.05361 1301.22727 4329.14523"></polygon>
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-4)" opacity="0.562839674" transform="translate(197.500000, 3932.000000) rotate(71.000000) translate(-197.500000, -3932.000000) " points="108 3890.35876 239.093628 3843 287 3973.64124 155.906372 4021"></polygon>
+            <rect id="Rectangle-4-Copy" fill="#FF7A5A" opacity="0.461560236" transform="translate(607.000000, 3487.500000) rotate(-20.000000) translate(-607.000000, -3487.500000) " x="589" y="3470" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#503179" opacity="0.461560236" transform="translate(1237.000000, 3877.500000) rotate(-20.000000) translate(-1237.000000, -3877.500000) " x="1219" y="3860" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#B72856" opacity="0.461560236" transform="translate(972.000000, 3926.500000) rotate(-20.000000) translate(-972.000000, -3926.500000) " x="954" y="3909" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#DE4A82" opacity="0.648833786" transform="translate(287.000000, 3437.500000) rotate(-20.000000) translate(-287.000000, -3437.500000) " x="269" y="3420" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#BA59FF" opacity="0.353657156" transform="translate(729.000000, 3634.500000) rotate(-70.000000) translate(-729.000000, -3634.500000) " x="714" y="3620" width="30" height="29"></rect>
+            <rect id="Rectangle-4-Copy" fill="#BA59FF" opacity="0.353657156" transform="translate(1009.000000, 3434.500000) rotate(-70.000000) translate(-1009.000000, -3434.500000) " x="994" y="3420" width="30" height="29"></rect>
+            <polyline id="Path-10" stroke="#AA58A1" stroke-width="2" points="567 3861 567 3835.95467 648 3835.95467 648 3781"></polyline>
+            <path d="M1046,3555 L1132,3555" id="Path-11" stroke="#AA58A1" stroke-width="2"></path>
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-5)" opacity="0.700011322" transform="translate(1439.000000, 2727.500000) rotate(71.000000) translate(-1439.000000, -2727.500000) " points="1286 2655.68056 1510.10419 2574 1592 2799.31944 1367.89581 2881"></polygon>
+            <path d="M1366.64014,2543.05181 L1416.07898,2679.35842 L1551.35986,2629.94819 L1501.92102,2493.64158 L1366.64014,2543.05181 Z" id="Rectangle-4-Copy-12" stroke="#979797" transform="translate(1459.000000, 2586.500000) rotate(81.000000) translate(-1459.000000, -2586.500000) "></path>
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-6)" opacity="0.562839674" transform="translate(295.145105, 3184.157746) rotate(71.000000) translate(-295.145105, -3184.157746) " points="263.040088 3169.1083 310.065375 3151.99249 327.250122 3199.2072 280.224835 3216.323"></polygon>
+            <path d="M269.805944,3153.32901 L286.648672,3199.60402 L332.734266,3182.83024 L315.891539,3136.55522 L269.805944,3153.32901 Z" id="Rectangle-4-Copy-12" stroke="#FFCACA" opacity="0.562839674" transform="translate(301.270105, 3168.079621) rotate(71.000000) translate(-301.270105, -3168.079621) "></path>
+            <rect id="Rectangle-4-Copy" fill="#6234A4" opacity="0.648833786" transform="translate(362.500000, 2733.000000) rotate(10.000000) translate(-362.500000, -2733.000000) " x="347" y="2718" width="31" height="30"></rect>
+            <rect id="Rectangle-4-Copy" fill="#D04D7B" opacity="0.522984601" transform="translate(1171.500000, 2991.000000) rotate(28.000000) translate(-1171.500000, -2991.000000) " x="1158" y="2978" width="27" height="26"></rect>
+            <polyline id="Path-8" stroke="#AA58A1" stroke-width="2" points="1045 3225 1045 3206 1124 3206"></polyline>
+            <rect id="Rectangle-4-Copy" fill="#FF7A5A" opacity="0.461560236" transform="translate(397.000000, 4897.500000) scale(-1, 1) rotate(-20.000000) translate(-397.000000, -4897.500000) " x="379" y="4880" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#DE4A82" opacity="0.648833786" transform="translate(1117.000000, 4957.500000) scale(-1, 1) rotate(-20.000000) translate(-1117.000000, -4957.500000) " x="1099" y="4940" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#BA59FF" opacity="0.353657156" transform="translate(789.000000, 4784.500000) scale(-1, 1) rotate(-70.000000) translate(-789.000000, -4784.500000) " x="774" y="4770" width="30" height="29"></rect>
+            <rect id="Rectangle-4-Copy" fill="#BA59FF" opacity="0.353657156" transform="translate(1369.000000, 4714.500000) scale(-1, 1) rotate(-70.000000) translate(-1369.000000, -4714.500000) " x="1354" y="4700" width="30" height="29"></rect>
+            <path d="M1046,4835 L1132,4835" id="Path-11" stroke="#AA58A1" stroke-width="2" transform="translate(1089.000000, 4835.000000) scale(-1, 1) translate(-1089.000000, -4835.000000) "></path>
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-6)" opacity="0.562839674" transform="translate(855.145105, 4464.157746) scale(-1, 1) rotate(71.000000) translate(-855.145105, -4464.157746) " points="823.040088 4449.1083 870.065375 4431.99249 887.250122 4479.2072 840.224835 4496.323"></polygon>
+            <path d="M829.805944,4433.32901 L846.648672,4479.60402 L892.734266,4462.83024 L875.891539,4416.55522 L829.805944,4433.32901 Z" id="Rectangle-4-Copy-12" stroke="#FFCACA" opacity="0.562839674" transform="translate(861.270105, 4448.079621) scale(-1, 1) rotate(71.000000) translate(-861.270105, -4448.079621) "></path>
+            <polyline id="Path-8" stroke="#AA58A1" stroke-width="2" transform="translate(474.500000, 4495.500000) scale(-1, 1) translate(-474.500000, -4495.500000) " points="435 4505 435 4486 514 4486"></polyline>
+            <polyline id="Path-8" stroke="#AA58A1" stroke-width="2" transform="translate(647.500000, 2806.500000) scale(-1, 1) rotate(-90.000000) translate(-647.500000, -2806.500000) " points="608 2816 608 2797 687 2797"></polyline>
+            <polyline id="Path-9" stroke="#AA58A1" stroke-width="2" points="1144 2713 1122 2713 1122 2744 1142.55123 2744"></polyline>
+            <polygon id="Rectangle-4-Copy-12" fill="url(#linearGradient-7)" opacity="0.617413949" transform="translate(390.000000, 2034.500000) rotate(71.000000) translate(-390.000000, -2034.500000) " points="297 1990.7533 433.220194 1941 483 2078.2467 346.779806 2128"></polygon>
+            <polygon id="Rectangle-4-Copy-13" fill="url(#linearGradient-7)" opacity="0.490942029" transform="translate(333.000000, 2049.500000) rotate(71.000000) translate(-333.000000, -2049.500000) " points="240 2005.7533 376.220194 1956 426 2093.2467 289.779806 2143"></polygon>
+            <rect id="Rectangle-4-Copy" fill="#E47E65" opacity="0.4" transform="translate(536.000000, 2216.500000) rotate(-50.000000) translate(-536.000000, -2216.500000) " x="518" y="2199" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#6E2FAF" opacity="0.4" transform="translate(756.000000, 2466.500000) rotate(-20.000000) translate(-756.000000, -2466.500000) " x="738" y="2449" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy" fill="#E47E65" opacity="0.521852355" transform="translate(965.000000, 2385.000000) rotate(-90.000000) translate(-965.000000, -2385.000000) " x="959" y="2379" width="12" height="12"></rect>
+            <rect id="Rectangle-4-Copy" fill="#CA45C8" opacity="0.4" transform="translate(965.000000, 2025.000000) rotate(-130.000000) translate(-965.000000, -2025.000000) " x="959" y="2019" width="12" height="12"></rect>
+            <polyline id="Path-6" stroke="#AA58A1" stroke-width="2" opacity="0.7" points="695 2256 695 2285.97185 770 2285.97185 770 2300"></polyline>
+            <polyline id="Path-7" stroke="#AA58A1" stroke-width="2" opacity="0.7" points="1238 2214 1238 2287 1261 2287"></polyline>
+            <polygon id="Rectangle-4-Copy-7" fill="url(#linearGradient-8)" opacity="0.617413949" transform="translate(1456.500000, 1333.000000) rotate(81.000000) translate(-1456.500000, -1333.000000) " points="1297 1258.13934 1530.62496 1173 1616 1407.86066 1382.37504 1493"></polygon>
+            <path d="M1267.6406,1258.43806 L1352.674,1492.35888 L1585.3594,1407.56194 L1500.326,1173.64112 L1267.6406,1258.43806 Z" id="Rectangle-4-Copy-7" stroke="#FF8484" opacity="0.617413949" transform="translate(1426.500000, 1333.000000) rotate(131.000000) translate(-1426.500000, -1333.000000) "></path>
+            <polygon id="Rectangle-4-Copy-6" fill="url(#linearGradient-7)" opacity="0.617413949" transform="translate(333.000000, 1346.500000) rotate(31.000000) translate(-333.000000, -1346.500000) " points="240 1302.7533 376.220194 1253 426 1390.2467 289.779806 1440"></polygon>
+            <polygon id="Rectangle-4-Copy-6" fill="url(#linearGradient-7)" opacity="0.490942029" transform="translate(351.000000, 1302.500000) rotate(31.000000) translate(-351.000000, -1302.500000) " points="258 1258.7533 394.220194 1209 444 1346.2467 307.779806 1396"></polygon>
+            <rect id="Rectangle-4-Copy" fill="#E460A4" opacity="0.494338768" transform="translate(906.000000, 1744.500000) rotate(-50.000000) translate(-906.000000, -1744.500000) " x="888" y="1727" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy-8" fill="#932E8D" transform="translate(644.000000, 1524.000000) rotate(-10.000000) translate(-644.000000, -1524.000000) " x="635" y="1515" width="18" height="18"></rect>
+            <rect id="Rectangle-4-Copy-9" fill="#A24832" transform="translate(1065.000000, 1373.000000) rotate(40.000000) translate(-1065.000000, -1373.000000) " x="1056" y="1364" width="18" height="18"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#AE3571" transform="translate(1363.500000, 1645.000000) rotate(-40.000000) translate(-1363.500000, -1645.000000) " x="1349" y="1631" width="29" height="28"></rect>
+            <polyline id="Line-2" stroke="#AA58A1" stroke-width="2" stroke-linecap="square" points="488 1774 502 1774 502 1703 489.274574 1703"></polyline>
+            <polyline id="Line-3" stroke="#AA58A1" stroke-width="2" stroke-linecap="square" points="1047 1541 1047 1562.9723 1202 1562.9723 1202 1583"></polyline>
+            <rect id="Rectangle-4-Copy" fill="#E460A4" opacity="0.494338768" transform="translate(906.000000, 7284.500000) rotate(-50.000000) translate(-906.000000, -7284.500000) " x="888" y="7267" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy-8" fill="#932E8D" transform="translate(644.000000, 7064.000000) rotate(-10.000000) translate(-644.000000, -7064.000000) " x="635" y="7055" width="18" height="18"></rect>
+            <rect id="Rectangle-4-Copy-10" fill="#AE3571" transform="translate(1363.500000, 7185.000000) rotate(-40.000000) translate(-1363.500000, -7185.000000) " x="1349" y="7171" width="29" height="28"></rect>
+            <polyline id="Line-2" stroke="#AA58A1" stroke-width="2" stroke-linecap="square" points="488 7314 502 7314 502 7243 489.274574 7243"></polyline>
+            <polyline id="Line-3" stroke="#AA58A1" stroke-width="2" stroke-linecap="square" points="1047 7081 1047 7102.9723 1202 7102.9723 1202 7123"></polyline>
+            <rect id="Rectangle-4" fill="url(#linearGradient-9)" transform="translate(1123.000000, 855.000000) rotate(20.000000) translate(-1123.000000, -855.000000) " x="1092" y="824" width="62" height="62"></rect>
+            <rect id="Rectangle-4-Copy" fill="#E460A4" transform="translate(916.000000, 614.500000) rotate(20.000000) translate(-916.000000, -614.500000) " x="898" y="597" width="36" height="35"></rect>
+            <rect id="Rectangle-4-Copy-2" fill="#EB7164" transform="translate(856.000000, 753.500000) rotate(20.000000) translate(-856.000000, -753.500000) " x="847" y="745" width="18" height="17"></rect>
+            <rect id="Rectangle-4-Copy-4" fill="#EB7164" transform="translate(1278.000000, 1099.500000) rotate(20.000000) translate(-1278.000000, -1099.500000) " x="1269" y="1091" width="18" height="17"></rect>
+            <rect id="Rectangle-4-Copy-3" fill="#EB7164" opacity="0.885360054" transform="translate(991.000000, 974.500000) rotate(-30.000000) translate(-991.000000, -974.500000) " x="982" y="966" width="18" height="17"></rect>
+            <polyline id="Path-5" stroke="#AA58A1" stroke-width="2" points="1278 1003 1278 932 1355 932"></polyline>
+            <polyline id="Path-5-Copy" stroke="#AA58A1" stroke-width="2" points="1045 1062 1045 1074 1122 1074 1122 1062.57436"></polyline>
+            <path d="M1201,653 L1278,653" id="Path-5-Copy-2" stroke="#AA58A1" stroke-width="2"></path>
+            <rect id="Rectangle-4-Copy-5" fill="#AA58A1" transform="translate(1251.500000, 773.000000) rotate(-80.000000) translate(-1251.500000, -773.000000) " x="1246" y="768" width="11" height="10"></rect>
+            <rect id="Rectangle-4-Copy-3" fill="#EB7164" opacity="0.827558877" transform="translate(701.000000, 1074.500000) rotate(20.000000) translate(-701.000000, -1074.500000) " x="692" y="1066" width="18" height="17"></rect>
+            <polygon id="Rectangle-4" fill="url(#linearGradient-10)" opacity="0.86328125" points="-5.68434189e-14 585.636271 438.687615 426 599 866.363729 160.312385 1026"></polygon>
+            <path d="M37.6408989,603.935127 L197.611202,1043.35919 L635.359101,884.064873 L475.388798,444.640814 L37.6408989,603.935127 Z" id="Rectangle-4" stroke="#EE78AF" opacity="0.688519022"></path>
+            <rect id="Rectangle-4-Copy" fill="#E460A4" opacity="0.736752717" transform="translate(479.828571, 207.500000) rotate(20.000000) translate(-479.828571, -207.500000) " x="468" y="196" width="23.6571429" height="23"></rect>
+            <rect id="Rectangle-4-Copy" fill="#E460A4" opacity="0.736752717" transform="translate(468.828571, 217.500000) rotate(20.000000) translate(-468.828571, -217.500000) " x="457" y="206" width="23.6571429" height="23"></rect>
+            <rect id="Rectangle-4-Copy" fill="#FF8158" transform="translate(1132.219882, 11.102075) rotate(-14.000000) translate(-1132.219882, -11.102075) " x="1123.21988" y="2.35207483" width="18" height="17.5"></rect>
+            <rect id="Rectangle-4-Copy" fill="#FF8158" transform="translate(1352.219882, 351.102075) rotate(26.000000) translate(-1352.219882, -351.102075) " x="1343.21988" y="342.352075" width="18" height="17.5"></rect>
+        </g>
+    </g>
+</svg>
