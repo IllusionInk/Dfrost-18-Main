@@ -217,6 +217,15 @@ p {
     background-color: #222;
 }
 
+.navbar-brand {
+    float: left;
+    height: 50px;
+    width: 180px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #ff6347;
