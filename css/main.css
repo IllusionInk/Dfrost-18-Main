@@ -320,8 +320,10 @@ p {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
+        padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(to right, #F15B2D, #EB325B, #E61088);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
