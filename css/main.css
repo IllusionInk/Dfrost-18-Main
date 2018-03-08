@@ -63,6 +63,9 @@ url('../font/Uni-Sans-Semi-Bold.otf');
 }
 
 
+
+
+
 h1,
 h2,
 h3,
@@ -253,6 +256,9 @@ p {
     
 }
 
+.content{
+    font-family: Open-Sans-Lite;
+}
 
 .nav-list-items{
   
@@ -532,10 +538,9 @@ p {
  width: 100%;
   height: auto;
   opacity: 0.8;
-  font-family: Uni-Sans;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: lighter;
   font-stretch: normal;
   line-height: 1.22;
   letter-spacing: 0.1px;
@@ -581,9 +586,9 @@ p {
       width: 100%;
   height: auto;
   opacity: 0.8;
-  font-family: Uni-Sans;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: lighter;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.22;
@@ -626,9 +631,9 @@ p {
       width: 270px;
   height: 140px;
   opacity: 0.8;
-  font-family: Uni-Sans;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: lighter;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.22;
