@@ -39,21 +39,7 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  //Countdown timer
-  function getTimeRemaining(endtime) {
-    var t = Date.parse(endtime) - Date.parse(new Date());
-    var seconds = Math.floor((t / 1000) % 60);
-    var minutes = Math.floor((t / 1000 / 60) % 60);
-    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-    var days = Math.floor(t / (1000 * 60 * 60 * 24));
-    return {
-      'total': t,
-      'days': days,
-      'hours': hours,
-      'minutes': minutes,
-      'seconds': seconds
-    };
-  }
+
 }
 
  /*  function initializeClock(id, endtime) {
@@ -90,6 +76,7 @@
 
 
 )(jQuery); // End of use strict
+
 
 mapboxgl.accessToken = 'pk.eyJ1IjoicmpkZXNobXVraCIsImEiOiJjajAzZm1nNWMwYXV4MndwM3Rsb3p6cHNnIn0.AssOKgLheiWRLzKSW4UWUg';
 var map = new mapboxgl.Map({
