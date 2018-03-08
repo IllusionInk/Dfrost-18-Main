@@ -82,6 +82,17 @@ p {
 }
 
 
+.bg-grid
+	{
+		position:absolute;
+		top: 25px;
+		left: 25px;
+		z-index: 2;
+        height: 100%;
+        width:100%;
+        background-repeat: no-repeat;
+	}
+
 .dfrost-logo {
   width: 450px;
   height: 450px;
@@ -90,6 +101,7 @@ p {
   background-size: contain;
   margin: -50px auto;
   position: center;
+    z-index: 1;
    
 }
 
