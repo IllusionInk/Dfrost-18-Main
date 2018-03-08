@@ -87,9 +87,20 @@ p {
 		position:absolute;
 		top: 25px;
 		left: 25px;
-		z-index: 2;
+		z-index: -1;
         height: 100%;
         width:100%;
+        background-repeat: no-repeat;
+	}
+
+.bg-elements
+	{
+		position:absolute;
+		top: 25px;
+		left: 25px;
+		z-index: -1;
+        height: 100%;
+        width:1100px;
         background-repeat: no-repeat;
 	}
 
@@ -478,7 +489,7 @@ p {
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.75;
+  line-height: 2.75;
   letter-spacing: 0.1px;
   text-align: center;
   color: #ffffff;
@@ -497,9 +508,10 @@ p {
   letter-spacing: 0.1px;
   text-align: center;
   color: #a8a8a8;
+  padding-bottom:20px;
 }
 #dtalks .table-content{     
- width: 270px;
+ width: 100%;
   height: auto;
   opacity: 0.8;
   font-family: Uni-Sans;
@@ -511,13 +523,14 @@ p {
   letter-spacing: 0.1px;
   text-align: left !important;
   color: #ffffff;
+  margin-bottom: 50px;
 }
 /* #dlabs .p{
 	margin: 0 0 10px !important; 
 } */
 #dlabs .title{
-    width: 270px;
-  height: auto;
+       width: 100%;
+  height: 42px;
   font-family: Uni-Sans;
   font-size: 24px;
   font-weight: bold;
@@ -527,13 +540,14 @@ p {
   letter-spacing: 0.1px;
   text-align: left;
   color: #ffffff;
+
   margin:0 0 0;
 }
 
 #dlabs .sub-title{
-    width: 270px;
+    width: 100%;
   height: auto;
-  font-family:Uni-Sans;
+  font-family: Uni-Sans;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -541,11 +555,12 @@ p {
   line-height: 2.1;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #968888;
+  color: #a8a8a8;
+  
 }
 
 #dlabs .table-content{
-      width: 270px;
+      width: 100%;
   height: auto;
   opacity: 0.8;
   font-family: Uni-Sans;
@@ -557,6 +572,8 @@ p {
   letter-spacing: 0.1px;
   text-align: left;
   color: #ffffff;
+  margin-bottom: 50px;
+  
 }
 
 #dspace .title{
@@ -589,7 +606,7 @@ p {
 
 #dspace .table-content{
       width: 270px;
-  height: 119px;
+  height: 140px;
   opacity: 0.8;
   font-family: Uni-Sans;
   font-size: 18px;
@@ -600,6 +617,7 @@ p {
   letter-spacing: 0.1px;
   text-align: left;
   color: #ffffff;
+   margin-bottom: 50px;
 }
 
 #contact .college {
