@@ -93,6 +93,8 @@ p {
 .bg-grid
 	{
 		position:absolute;
+		top: 25px;
+		left: 25px;
 		z-index: -1;
         height: 100%;
         width:100%;
@@ -102,7 +104,7 @@ p {
 .bg-elements
 	{
 		position:absolute;	
-      top:4%;
+        left :20px;
 		z-index: -1;
         height: 100%;
         width:100%;
@@ -148,9 +150,6 @@ p {
     height: 200px;
     width: 100%;
     margin-left: 0%;
-  }
-  .dfrost-logo {
-    height: 200px;
   }
     
 }
@@ -208,6 +207,7 @@ p {
   color: #ffffff;
     
 }
+
 .main-heading-left{
     font-family: Uni-Sans;
   position: relative;
@@ -244,6 +244,17 @@ p {
     
 }
 
+@media only screen and (max-width: 992px) {
+    .main-heading{
+        text-align: center;
+    }
+    .main-heading-right{
+        text-align: center;
+    }
+    .main-heading-left{
+        text-align: center;
+    }
+}
 .main-heading-small{
     font-family: Uni-Sans;
   position: relative; 
@@ -510,6 +521,14 @@ p {
   text-align: left;
   color: #78909c;
 }
+@media only screen and (max-width: 992px) {
+    
+    #schedule .table-content{
+        text-align: left;
+        margin-left: 100px;
+    }
+}
+
 
 #dtalks .title{
     width: 100%;
@@ -804,7 +823,7 @@ color: #ffffff;
   }
 
 
-.main_footer{display: block;float: left;width: 100%;padding: 30px 60px;height: auto;background: #141414;color: #8d8d8d;margin-top:5%;border: none; text-align:center;}
+.main_footer{display: block;float: left;width: 100%;padding: 30px 60px;height: auto;background: #141414;color: #8d8d8d;border: none; text-align:center;}
 .main_footer .social_wrap, .main_footer .footer_content{display: block;float: left;}
 .main_footer .footer_content{width: 300px;height: auto;}
 .main_footer .social_wrap{width: 230px ;height: auto;}
