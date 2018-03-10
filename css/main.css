@@ -84,6 +84,9 @@ p {
   margin: 0 0 5px 0;
 }
 
+.float-box-footer{display:inline-block;position:relative;height:37px;background-color:transparent;max-width: 860px;width: 100%;}
+
+        .p4{font-size: 16pt; color: white; padding-left:5pt; left:0; top:7pt; font-family: Uni-Sans;position:relative;}
 
 .bg-grid
 	{
