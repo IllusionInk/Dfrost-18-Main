@@ -152,6 +152,20 @@ p {
     width: 100%;
     margin-left: 0%;
   }
+    
+    #dlabs{
+        
+    }
+    #dlabs .title{
+        
+    }
+    #dlabs .subtitle{
+        
+    }
+    #dlabs .content{
+        
+    }
+    
 }
 
 .img-rect{
@@ -769,7 +783,7 @@ color: #ffffff;
   font-stretch: normal;
   line-height: 1.22;
   letter-spacing: 0.1px;
-  text-align: left;
+  text-align: left ;
   color: #ffffff;
 }
 
