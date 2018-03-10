@@ -112,14 +112,13 @@ p {
 	}
 
 .dfrost-logo {
-  width: 450px;
-  height: 450px;
+  /*width: 450px;*/
+  height: 400px;
+  margin-top: 10%;
   display: block;
   background: url('../img/logo/logo2.svg') center center no-repeat;
   background-size: contain;
-  margin: -50px auto;
-  position: center;
-    z-index: 1;
+  z-index: 1;
    
 }
 
