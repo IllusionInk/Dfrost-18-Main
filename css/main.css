@@ -137,6 +137,9 @@ p {
       margin-left: 20%;
     }
 
+.margin-btm{
+  padding-bottom: 50px;
+}
 
 @media only screen and (max-width: 992px) {
     .nid-logo-img {
@@ -152,6 +155,9 @@ p {
   .dfrost-logo{
     height: 250px;
   }
+  .margin-btm{
+  padding-bottom: 10px;
+}
     
 }
 
@@ -226,6 +232,7 @@ p {
   color: #ffffff;
     
 }
+
 
 .main-heading-right{
     font-family: Uni-Sans;
