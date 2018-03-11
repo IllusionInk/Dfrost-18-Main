@@ -138,7 +138,12 @@ p {
     }
 
 .margin-btm{
-  padding-bottom: 50px;
+  padding-bottom: 50px !important;
+}
+
+.img-rect{
+    width : 270 px;
+    height: 233 px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -158,13 +163,12 @@ p {
   .margin-btm{
   padding-bottom: 10px;
 }
-    
+.img-rect{
+    padding-bottom: 10px;
 }
 
-.img-rect{
-    width : 270 px;
-    height: 233 px;
 }
+
 
 .Rectangle-4-Copy-13 {
   width: 266px;
