@@ -129,7 +129,15 @@ p {
     margin-top : 5px;
 }
 
-
+.partner-white{
+  background: #fff;
+  display: table;
+  width: 100%;
+}
+.partner-content{
+    padding-bottom: 50px;
+  padding-top: 50px;
+}
 .map {
       position: relative;
       height: 400px;
@@ -169,6 +177,10 @@ p {
 .bg-elements
   {
     top: 0%;
+  }
+  .partner-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 }
